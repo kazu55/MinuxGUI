@@ -1,8 +1,8 @@
 {
-  ["/startup.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/main/startup.lua",
-  ["/Login.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/main/Login.lua",
-  ["/Desktop.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/main/Desktop.lua",
-  ["/MinuxNews.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/main/MinuxNews.lua",
+  ["/startup.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/startup.lua",
+  ["/Login.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/Login.lua",
+  ["/Desktop.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/Desktop.lua",
+  ["/MinuxNews.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/MinuxNews.lua",
   ["/FileManager.lua"] = "https://pastebin.com/raw/pnzdr8FB",
   ["/update.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/update.lua",
 }
