@@ -1,0 +1,7 @@
+{
+  ["/startup.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/main/startup.lua",
+  ["/Login.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/main/Login.lua",
+  ["/Desktop.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/main/Desktop.lua",
+  ["/MinuxNews.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/main/MinuxNews.lua",
+  ["/PB.lua"] "https://raw.githubusercontent.com/kazu55/MinuxGUI/main/PB.lua"
+}
