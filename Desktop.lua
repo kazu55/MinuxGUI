@@ -1,5 +1,5 @@
 --Variable
-local osVer = "MinuxGUI 1.0"
+local osVer = "MinuxGUI"
 local w,h = term.getSize()
 local brunning = true
 local slc = 0
@@ -14,6 +14,8 @@ local menu = {
 	[" Reboot          "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 4; cmd = function() os.reboot() end}; --Reboot Now
 	[" File Explorer   "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 5; cmd = function() shell.run("FileManager") end}; --FileManager
 	[" Minux News      "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 6; cmd = function() shell.run("MinuxNews") end}; --Minux News
+	[" Update MinuxGUI "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 7; cmd = function() shell.run("update") end}; --Update
+	
 }
 --Functions
 local function tb_Draw()
