@@ -5,4 +5,9 @@
   ["/MinuxNews.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/MinuxNews.lua",
   ["/FileManager.lua"] = "https://pastebin.com/raw/pnzdr8FB",
   ["/update.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/update.lua",
+  ["/.boot/1"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/1",
+  ["/.boot/2"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/2",
+  ["/.boot/3"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/3",
+  ["/.boot/4"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/4",
+  ["/.boot/5"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/5",
 }
