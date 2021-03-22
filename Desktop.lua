@@ -1,10 +1,11 @@
 --Variable
-local osVer = "MinuxGUI Alpha"
+local osVer = "MinuxGUI"
 local w,h = term.getSize()
 local brunning = true
 local slc = 0
 local _mtext = 1
 local _mback = 128
+
 
 --Tables
 local menu = {
@@ -12,8 +13,11 @@ local menu = {
 	[" Shutdown        "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 2; cmd = function() os.shutdown() end}; --Shutdown Now
 	[" Logout          "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 3; cmd = function() shell.run("Login") end}; --Logout Now
 	[" Reboot          "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 4; cmd = function() os.reboot() end}; --Reboot Now
-	[" File Explorer   "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 5; cmd = function() shell.run("FileManager") end}; --FileManager
-	[" Minux News      "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 6; cmd = function() shell.run("MinuxNews") end}; --Minux News
+	[" File Explorer   "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 5; cmd = function() shell.run("background FileManager") end}; --FileManager
+	[" Minux News      "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 6; cmd = function() shell.run("background MinuxNews") end}; --Minux News
+	[" Update MinuxGUI "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 7; cmd = function() shell.run("background update") end}; --Update
+	[" Shell           "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 8; cmd = function() shell.run("background shell") end}; --SH
+	
 }
 --Functions
 local function tb_Draw()
