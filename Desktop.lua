@@ -15,7 +15,7 @@ local menu = {
 	[" Reboot          "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 4; cmd = function() os.reboot() end}; --Reboot Now
 	[" File Explorer   "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 5; cmd = function() shell.run("background FileManager") end}; --FileManager
 	[" Minux News      "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 6; cmd = function() shell.run("background MinuxNews") end}; --Minux News
-	[" Update MinuxGUI "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 7; cmd = function() shell.run("background update") end}; --Update
+	[" Update MinuxGUI "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 7; cmd = function() shell.run("update") end}; --Update
 	[" Shell           "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 8; cmd = function() shell.run("background shell") end}; --SH
 	
 }
