@@ -41,7 +41,7 @@ term.clear()
 term.setCursorPos(1,1)
 term.setBackgroundColor(colors.blue)
 
-local myTimer = os.startTimer(0)
+local myTimer = os.startTimer(1)
 
 while true do
   local event, par1 = os.pullEvent()
