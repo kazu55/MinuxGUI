@@ -1,5 +1,5 @@
 Boot = ("CraftOS")
-Boot1 = ("MinuxGUI")
+Boot1 = ("AppleOS")
 a = read()
 if a == Boot then
   shell.run("sh")
