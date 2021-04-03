@@ -23,7 +23,7 @@ local function tb_Draw()
 	term.setBackgroundColor(8)
 	term.setTextColor(1)
 	term.clearLine()
-	print("[Menu]")
+	print("[Begin]")
 	term.setCursorPos(math.floor(w)-#osVer, 1)
 	print(osVer)
 end
