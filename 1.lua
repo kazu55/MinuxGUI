@@ -9,6 +9,7 @@ term.clear()
 term.setCursorPos(1,1)
 sleep(2)
 print("Press any key to boot CraftOS")
+
 local myTimer = os.startTimer(2)
 
 while true do
