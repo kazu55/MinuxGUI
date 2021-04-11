@@ -20,7 +20,6 @@ sleep(2)
 term.clear()
 term.setTextColor(colors.white)
 
-shell.run("1")
 
 term.setBackgroundColor(colors.blue)
 term.clear()
@@ -31,4 +30,5 @@ sleep(0.3)
 term.setBackgroundColor(colors.black)
 term.clear()
 sleep(0.5)
+shell.run("1")
 shell.run("Login")
