@@ -8,7 +8,8 @@ end
 term.clear()
 term.setCursorPos(1,1)
 sleep(2)
-local myTimer = os.startTimer(2)
+print("Press any key to boot CraftOS")
+local myTimer = os.startTimer(5)
 
 while true do
   local event, par1 = os.pullEvent()
@@ -16,12 +17,11 @@ while true do
   if event == "timer" and par1 == myTimer then
     break
   elseif event == "key" then
-    print("Starting BootMenu...")
     term.setBackgroundColor(colors.black)
     sleep(1.261)
     term.clear()
     term.setCursorPos(1,1)
-    shell.run("BootMenu")
+    shell.run("shell")
     break
   end
 end
