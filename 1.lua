@@ -1,7 +1,14 @@
+local function centerText(text)
+  local x,y = term.getSize()
+  local x2,y2 = term.getCursorPos()
+  term.setCursorPos(math.ceil((x / 2) - (text:len() / 2)), y2)
+  write(text)
+end
+
 term.clear()
 term.setCursorPos(1,1)
 sleep(2)
-print("Press any key here to open the bootmenu.")
+centerText("Press any key here to open the bootmenu.")
 local myTimer = os.startTimer(2)
 
 while true do
