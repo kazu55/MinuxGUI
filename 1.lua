@@ -19,7 +19,6 @@ while true do
     break
   elseif event == "key" then
     term.setBackgroundColor(colors.black)
-    sleep(1.261)
     term.clear()
     term.setCursorPos(1,1)
     shell.run("shell")
