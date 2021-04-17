@@ -13,9 +13,6 @@ local function centerText(text)
   write(text)
 end
 
-term.setBackgroundColor(colors.cyan)
-term.clear()
-sleep(0.3)
 term.setBackgroundColor(colors.blue)
 term.clear()
 
@@ -28,50 +25,26 @@ sleep(2)
 term.clear()
 centerTextXY("Loading...")
 sleep(2)
-if fs.exists("Desktop.lua") == true then
-  term.clear()
-  centerTextXY("--")
-end
+print(fs.exists("Desktop.lua"))
 sleep(0.2)
 
-if fs.exists("1.lua") == true then
-  term.clear()
-  centerTextXY("--")
-  write("--")
-end
+print(fs.exists("1.lua"))
 sleep(0.2)
 
-if fs.exists("FileManager.lua") == true then
-  term.clear()
-  centerTextXY("--")
-  write("----")
-end
+print(fs.exists("FileManager.lua"))
 sleep(0.6)
 
-if fs.exists("shutdown1.lua") == true then
-  term.clear()
-  centerTextXY("--")
-  write("------")
-end
+print(fs.exists("shutdown1.lua"))
 sleep(0.27)
 
-if fs.exists("shutdown2.lua") == true then
-  term.clear()
-  centerTextXY("--")
-  write("--------")
-end
+print(fs.exists("shutdown2.lua"))
 sleep(0.23)
 
 term.setTextColor(colors.white)
 
 
 
-term.setBackgroundColor(colors.blue)
-term.clear()
-sleep(0.3)
-term.setBackgroundColor(colors.cyan)
-term.clear()
-sleep(0.3)
+
 term.setBackgroundColor(colors.black)
 term.clear()
 sleep(0.5)
