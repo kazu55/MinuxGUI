@@ -4,9 +4,13 @@ local function centerTextXY(text)
   io.write(text)
 end
 
-term.setBackgroundColor(colors.black)
-term.clear()
-term.setCursorPos(1,1)
-centerTextXY("Restarting")
-sleep(1)
-os.reboot()
+os.loadAPI("diaAPI.lua")
+Variable = diaAPI.yesorno(4,4,"reboot","AppleOS")
+if Variable == true then
+  term.setBackgroundColor(colors.black)
+  term.clear()
+  term.setCursorPos(1,1)
+  centerTextXY("Restarting")
+  sleep(1)
+  os.reboot()
+end
