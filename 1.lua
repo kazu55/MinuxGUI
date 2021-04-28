@@ -13,7 +13,7 @@ term.setCursorPos(1,7)
 print("   There is no guarantee that the OS data will be")
 print("   corrupted as a result of using CraftOS.")
 
-local myTimer = os.startTimer()
+local myTimer = os.startTimer(4)
 
 while true do
   local event, par1 = os.pullEvent()
