@@ -6,9 +6,12 @@ local function centerText(text)
 end
 
 term.clear()
-term.setCursorPos(1,1)
+term.setCursorPos(1,5)
 sleep(2)
-print("Press any key to boot CraftOS")
+print("   Press any key to boot CraftOS.")
+term.setCursorPos(1,7)
+print("   There is no guarantee that the OS data will be")
+print("   corrupted as a result of using CraftOS.")
 
 local myTimer = os.startTimer(2)
 
