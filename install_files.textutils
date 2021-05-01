@@ -16,4 +16,5 @@
   ["/BootMenu.lua"] = "https://raw.githubusercontent.com/kazu55/MinuxGUI/master/BootMenu.lua",
   ["/errorMSG.lua"] = "https://raw.githubusercontent.com/kazu55/AppleOS/master/errorMSG.lua",
   ["/diaAPI.lua"] = "https://pastebin.com/raw/39hevtHr",
+  ["/themes/Sakura.nfp"] = "https://raw.githubusercontent.com/kazu55/AppleOS/master/Sakura.nfp"
 }
