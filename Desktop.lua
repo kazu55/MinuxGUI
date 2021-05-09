@@ -17,7 +17,7 @@ local menu = {
 	[" Update AppleOS   "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 6; cmd = function() term.setBackgroundColor(colors.black) term.clear() term.setCursorPos(1,1) shell.run("update") end}; --Update
 	[" CustomProgram1   "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 7; cmd = function() end};
 	[" CustomProgram2   "] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 8; cmd = function() end};
-	[" Terminal Emulator"] = {tcol = _mtext; bcol = _mback; x = 1; xx = 12; y = 8; cmd = function() term.setBackgroundColor(colors.black) term.clear() term.setCursorPos(1,1) shell.run("foreground shell") end};
+	[" Terminal Emulator"] = {tcol = _mtext; bcol = _mback; x = 1; xx = 13; y = 8; cmd = function() term.setBackgroundColor(colors.black) term.clear() term.setCursorPos(1,1) shell.run("foreground shell") end};
 
 }
 --Functions
