@@ -23,7 +23,7 @@ if Variable == true then
   shell.run("rm /.boot/")
   shell.run("rm Login.lua")
   shell.run("rm diaAPI.lua")
-  shell.run("rm /themes/sakura.nfp
+  shell.run("rm /themes/sakura.nfp")
   shell.run("pastebin get k7Gb1iMn startup")
 
   term.setBackgroundColor(colors.black)
