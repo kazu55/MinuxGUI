@@ -19,7 +19,7 @@ if fs.exists("key.txt") == true then
   print("Enter Password.")
   b = read()
   if b == pass then
-    shell.run("Desktop")
+    return
   end
 end
 
