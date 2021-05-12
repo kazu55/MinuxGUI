@@ -1,5 +1,5 @@
 --Variable
-local osVer = "AppleOS"
+local osVer = "yukkuri reimu Desktop Environment"
 local w,h = term.getSize()
 local brunning = true
 local slc = 0
